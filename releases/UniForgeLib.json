@@ -1,0 +1,74 @@
+{
+    "fileName": "UniForgeLib.json",
+    "name": "UniForgeLib",
+    "version": "0.1.0-alpha",
+    "frcYear": "2024",
+    "uuid": "f4e80f45-e3b8-419a-930e-603d931072e2",
+    "mavenUrls": [
+        "https://UniversalForge.github.io/maven"
+    ],
+    "jsonUrl": "https://UniversalForge.github.io/releases/UniForgeLib.json",
+    "javaDependencies": [
+        {
+            "groupId": "com.uniforge.origin",
+            "artifactId": "uniforgelib-java",
+            "version": "0.1.0-alpha"
+        }
+    ],
+    "jniDependencies": [
+        {
+            "groupId": "com.uniforge.origin",
+            "artifactId": "uniforgelib-jni",
+            "version": "0.1.0-alpha",
+            "skipInvalidPlatforms": true,
+            "isJar": false,
+            "validPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        }
+    ],
+    "cppDependencies": [
+        {
+            "groupId": "com.uniforge.origin",
+            "artifactId": "uniforgelib-cpp",
+            "version": "0.1.0-alpha",
+            "libName": "uniforgelib",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "com.uniforge.origin",
+            "artifactId": "uniforgelib-jni",
+            "version": "0.1.0-alpha",
+            "libName": "UniForgeDriver",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        }
+    ]
+}
