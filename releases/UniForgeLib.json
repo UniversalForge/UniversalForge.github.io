@@ -1,7 +1,7 @@
 {
     "fileName": "UniForgeLib.json",
     "name": "UniForgeLib",
-    "version": "0.2.0-alpha",
+    "version": "0.2.1-alpha",
     "frcYear": "2024",
     "uuid": "f4e80f45-e3b8-419a-930e-603d931072e2",
     "mavenUrls": [
@@ -12,14 +12,14 @@
         {
             "groupId": "com.uniforge.origin",
             "artifactId": "uniforgelib-java",
-            "version": "0.2.0-alpha"
+            "version": "0.2.1-alpha"
         }
     ],
     "jniDependencies": [
         {
             "groupId": "com.uniforge.origin",
             "artifactId": "uniforgelib-jni",
-            "version": "0.2.0-alpha",
+            "version": "0.2.1-alpha",
             "skipInvalidPlatforms": true,
             "isJar": false,
             "validPlatforms": [
@@ -37,7 +37,7 @@
         {
             "groupId": "com.uniforge.origin",
             "artifactId": "uniforgelib-cpp",
-            "version": "0.2.0-alpha",
+            "version": "0.2.1-alpha",
             "libName": "uniforgelib",
             "headerClassifier": "headers",
             "sharedLibrary": false,
@@ -55,7 +55,7 @@
         {
             "groupId": "com.uniforge.origin",
             "artifactId": "uniforgelib-jni",
-            "version": "0.2.0-alpha",
+            "version": "0.2.1-alpha",
             "libName": "UniForgeDriver",
             "headerClassifier": "headers",
             "sharedLibrary": false,
