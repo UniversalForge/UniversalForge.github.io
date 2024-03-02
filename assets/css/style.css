@@ -1,8 +1,132 @@
-.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('space-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.86)
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* Additional page-specific styles */
+.about p {
+    font-size: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+/* JavaScript specific styles */
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Additional elements to style for dark mode */
+.dark-mode-header {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Light mode styles */
+.light-mode {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Additional elements to style for light mode */
+.light-mode-header {
+    background-color: #f0f0f0;
+    color: #333;
 }
