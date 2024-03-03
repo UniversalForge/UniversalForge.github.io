@@ -1,7 +1,7 @@
 {
     "fileName": "UniForgeLib.json",
     "name": "UniForgeLib",
-    "version": "0.3.6-alpha",
+    "version": "0.3.7-alpha",
     "frcYear": "2024",
     "uuid": "f4e80f45-e3b8-419a-930e-603d931072e2",
     "mavenUrls": [
@@ -11,15 +11,31 @@
     "javaDependencies": [
         {
             "groupId": "com.uniforge.origin",
-            "artifactId": "uniforgelib-java",
-            "version": "0.3.6-alpha"
+            "artifactId": "origin-java",
+            "version": "0.3.7-alpha"
         }
     ],
     "jniDependencies": [
         {
             "groupId": "com.uniforge.origin",
             "artifactId": "uniforgelib-jni",
-            "version": "0.3.6-alpha",
+            "version": "0.3.7-alpha",
+            "skipInvalidPlatforms": true,
+            "isJar": false,
+            "validPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "com.uniforge.origin",
+            "artifactId": "origin-jni",
+            "version": "0.3.7-alpha",
             "skipInvalidPlatforms": true,
             "isJar": false,
             "validPlatforms": [
@@ -36,9 +52,9 @@
     "cppDependencies": [
         {
             "groupId": "com.uniforge.origin",
-            "artifactId": "uniforgelib-cpp",
-            "version": "0.3.6-alpha",
-            "libName": "uniforgelib",
+            "artifactId": "origin-cpp",
+            "version": "0.3.7-alpha",
+            "libName": "originlib",
             "headerClassifier": "headers",
             "sharedLibrary": false,
             "skipInvalidPlatforms": true,
@@ -54,9 +70,9 @@
         },
         {
             "groupId": "com.uniforge.origin",
-            "artifactId": "uniforgelib-jni",
-            "version": "0.3.6-alpha",
-            "libName": "UniForgeDriver",
+            "artifactId": "origin-jni",
+            "version": "0.3.7-alpha",
+            "libName": "OriginDriver",
             "headerClassifier": "headers",
             "sharedLibrary": false,
             "skipInvalidPlatforms": true,
