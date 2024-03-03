@@ -13,12 +13,17 @@
             "groupId": "com.uniforge.origin",
             "artifactId": "origin-java",
             "version": "0.3.7-alpha"
+        },
+        {
+            "groupId": "com.uniforge.nexus",
+            "artifactId": "nexus-jni",
+            "version": "0.1.0-alpha"
         }
     ],
     "jniDependencies": [
         {
             "groupId": "com.uniforge.origin",
-            "artifactId": "uniforgelib-jni",
+            "artifactId": "origin-jni",
             "version": "0.3.7-alpha",
             "skipInvalidPlatforms": true,
             "isJar": false,
@@ -33,9 +38,9 @@
             ]
         },
         {
-            "groupId": "com.uniforge.origin",
-            "artifactId": "origin-jni",
-            "version": "0.3.7-alpha",
+            "groupId": "com.uniforge.nexus",
+            "artifactId": "nexus-jni",
+            "version": "0.1.0-alpha",
             "skipInvalidPlatforms": true,
             "isJar": false,
             "validPlatforms": [
@@ -73,6 +78,24 @@
             "artifactId": "origin-jni",
             "version": "0.3.7-alpha",
             "libName": "OriginDriver",
+            "headerClassifier": "headers",
+            "sharedLibrary": false,
+            "skipInvalidPlatforms": true,
+            "binaryPlatforms": [
+                "windowsx86-64",
+                "windowsx86",
+                "linuxarm64",
+                "linuxx86-64",
+                "linuxathena",
+                "linuxarm32",
+                "osxuniversal"
+            ]
+        },
+        {
+            "groupId": "com.uniforge.nexus",
+            "artifactId": "nexus-jni",
+            "version": "0.1.0-alpha",
+            "libName": "NexusDriver",
             "headerClassifier": "headers",
             "sharedLibrary": false,
             "skipInvalidPlatforms": true,
