@@ -16,7 +16,7 @@
         },
         {
             "groupId": "com.uniforge.nexus",
-            "artifactId": "nexus-jni",
+            "artifactId": "nexus-java",
             "version": "0.1.0-alpha"
         }
     ],
